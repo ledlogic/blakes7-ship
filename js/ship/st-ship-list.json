@@ -1,0 +1,19 @@
+{
+	"ships": [
+		{
+			"allegiance": "Blakes-7",
+			"name": "Liberator",
+			"uri": "liberator.json"
+		},
+		{
+			"allegiance": "Federation",
+			"name": "Starburst Pursuit Ship",
+			"uri": "starburst.json"
+		},
+		{
+			"allegiance": "Neutral",
+			"name": "Fabrication Ship",
+			"uri": "fab.json"
+		}
+	]	
+}
