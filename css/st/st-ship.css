@@ -73,7 +73,7 @@
 
 .st-overview .st-overview-item .st-overview-label {
 	display: inline-block;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', sans-serif;
 	font-weight: bolder;
 	width: 70px;
 }
@@ -105,7 +105,7 @@
 
 .st-demographics .st-demographics-item .st-demographic-label {
 	display: inline-block;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	font-weight: bolder;
 	width: 60px;
 }
@@ -196,7 +196,7 @@
 
 .st-stress .st-item.st-stress-header {
 	font-size: 12px;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	font-weight: bolder;
 	text-transform: uppercase;
 	width: 200px;
@@ -205,7 +205,7 @@
 .st-stress .st-item.st-stress-header .st-stress-header-stress {
 	display: inline-block;
 	font-size: 12px;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	font-weight: bolder;
 	text-transform: uppercase;
 	width: 322px;
@@ -213,7 +213,7 @@
 
 .st-stress .st-item.st-stress-header .st-stress-header-penalty {
 	font-size: 12px;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	font-weight: bolder;
 	text-transform: uppercase;
 	width: 200px;
@@ -230,7 +230,7 @@
 
 .st-attribute {
 	display: block;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	font-size: 12px;
 	height: 20px;
 	margin: 0 0 0 0;
@@ -240,7 +240,7 @@
 
 .st-attribute .st-attribute-label {
 	display: inline-block;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	font-weight: bolder;
 	text-align: center;
 	vertical-align: top;
@@ -249,14 +249,14 @@
 
 .st-attribute .st-attribute-label [class^=char] {
 	display: inline-block;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	text-align: center;
 	width: 14px;
 }
 
 .st-attribute .st-attribute-value {
 	display: inline-block;
-	font-family: 'Microgramma Extd D Medium', sans-serif; /* eclipse phase title font is heliotype */
+	font-family: 'Microgramma Extd D Medium', 'Microgramma Extd D', sans-serif;
 	font-weight: bolder;
 	text-align: center;
 	width: 40px;
