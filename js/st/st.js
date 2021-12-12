@@ -8,6 +8,7 @@ var st = {
 	},
 
 	init: function() {
+		st.render.init();
 		st.ship.init();
 		st.nav.init();
 	}
