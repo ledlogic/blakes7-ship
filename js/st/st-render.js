@@ -40,10 +40,11 @@ st.render = {
 		// thead
 		s.push("<thead>");
 		s.push("<tr>");
+		
 		s.push("<th>");
 		s.push("System");
 		s.push("</th>");
-		s.push("<th colspan=\"2\">");
+		s.push("<th>");
 		s.push("Hit Range");
 		s.push("</th>");
 		s.push("<th>");
@@ -64,44 +65,41 @@ st.render = {
 		s.push("<th>");
 		s.push("Energy<br/>Max");
 		s.push("</th>");
+		s.push("<th>");
+		s.push("Range");
+		s.push("</th>");
+		s.push("<th>");
+		s.push("Effectiveness");
+		s.push("</th>");
+		s.push("<th>");
+		s.push("Skill");
+		s.push("</th>");
+		s.push("<th>");
+		s.push("Weapon<br/>Damage");
+		s.push("</th>");
+		s.push("<th>");
+		s.push("Weapon<br/>ROF");
+		s.push("</th>");
+		s.push("<th>");
+		s.push("Weapon<br/>Arc");
+		s.push("</th>");
+		s.push("<th>");
+		s.push("Weapon<br/>Endurance");
+		s.push("</th>");
+		
 		s.push("</tr>");
 		s.push("</thead>");
 				
 		// tbody
 		s.push("<tbody>");
 		_.each(systems, function(system) {
-			/*
-				"system.name": "Hull",
-				"hit.start": 1,
-				"hit.end": 40,
-				"damage.current": 0,
-				"damage.max": 50,
-				"damage.absorbs": 0,
-				"energy.cost": 0,
-				"energy.spent": 0,
-				"energy.max": 0,
-				"detector.range": 0,
-				"detector.effectiveness": 0,
-				"repair.skill": 0,
-				"teleport.range": 0,
-				"weapon.range": 0,
-				"weapon.effectiveness": 0,
-				"weapon.damage": 0,
-				"weapon.rof": 0,
-				"weapon.arc": "",
-				"weapon.skill": "",
-				"weapon.endurance": ""
-			*/
-	
 			s.push("<tr>");
-			s.push("<td>");
+
+			s.push("<td nowrap=\"nowrap\">");
 			s.push(system["system.name"]);
 			s.push("</td>");
 			s.push("<td>");
-			s.push(system["hit.start"]);
-			s.push("</td>");
-			s.push("<td>");
-			s.push(system["hit.end"]);
+			s.push(system["hit.start"] + " - " + system["hit.end"]);
 			s.push("</td>");
 			s.push("<td>");
 			s.push(st.render.emptyIfZero(system["damage.current"]));
@@ -120,6 +118,27 @@ st.render = {
 			s.push("</td>");
 			s.push("<td>");
 			s.push(st.render.emptyIfZero(system["energy.max"]));
+			s.push("</td>");
+			s.push("<td>");
+			s.push(st.render.naIfZero(system["range"]));
+			s.push("</td>");
+			s.push("<td>");
+			s.push(st.render.naIfZero(system["effectiveness"]));
+			s.push("</td>");
+			s.push("<td>");
+			s.push(st.render.naIfZero(system["skill"]));
+			s.push("</td>");
+			s.push("<td>");
+			s.push(st.render.naIfZero(system["weapon.damage"]));
+			s.push("</td>");
+			s.push("<td>");
+			s.push(st.render.naIfZero(system["weapon.rof"]));
+			s.push("</td>");
+			s.push("<td>");
+			s.push(st.render.naIfZero(system["weapon.arc"]));
+			s.push("</td>");
+			s.push("<td>");
+			s.push(st.render.naIfZero(system["weapon.endurance"]));
 			s.push("</td>");
 
 			s.push("</tr>");
