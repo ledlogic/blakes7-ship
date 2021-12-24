@@ -93,8 +93,20 @@ st.render = {
 		// tbody
 		s.push("<tbody>");
 		_.each(systems, function(system) {
-			s.push("<tr>");
-
+			var systemClass = "st-system-general";
+			if (system["energy.max"]) {
+				systemClass = "st-system-energy";
+			}
+			if (system["damage.absorbs"]) {
+				systemClass = "st-system-shield";
+			}
+			if (system["weapon.damage"]) {
+				systemClass = "st-system-weapon";
+			}
+			if (system["effectiveness"]) {
+				systemClass = "st-system-sensors";
+			}
+			s.push("<tr class=\"" + systemClass + "\">");
 			s.push("<td nowrap=\"nowrap\">");
 			s.push(system["system.name"]);
 			s.push("</td>");

@@ -120,7 +120,6 @@
 /* st-systems */
 
 .st-systems {
-	/*border: 1px solid #8080c0;*/
 	margin: 10px 0 0 0;
 	width: 1000px;	
 }
@@ -129,8 +128,26 @@
 }
 .st-systems-table th, 
 .st-systems-table td {
-	border: 1px solid #8080c0;
+	border: 1px solid #808080;
 	font-size:10px;
 	padding: 3px 4px 3px 4px;
 }
-
+.st-systems-table th {
+	background: #808080;
+	color: #ffffff;
+}
+.st-system-energy {
+	background-color: #ccffcc;
+}
+.st-system-general {
+	background-color: #ececec;
+}
+.st-system-sensors {
+	background-color: #ccccff;
+}
+.st-system-shield {
+	background-color: #ffeecc;
+}
+.st-system-weapon {
+	background-color: #ffdddd;
+}
