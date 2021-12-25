@@ -6,14 +6,14 @@
 			"uri": "liberator.json"
 		},
 		{
+			"allegiance": "Blakes-7",
+			"name": "Scorpio",
+			"uri": "scorpio.json"
+		},
+		{
 			"allegiance": "Federation",
 			"name": "Starburst Pursuit Ship",
 			"uri": "starburst.json"
-		},
-		{
-			"allegiance": "Neutral",
-			"name": "Fabrication Ship",
-			"uri": "fab.json"
 		}
 	]
 }
