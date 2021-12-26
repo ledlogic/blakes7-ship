@@ -228,7 +228,7 @@
 			"weapon.endurance": "NA"
 		},
 		{
-			"system.name": "PLasma bolt launcher",
+			"system.name": "Plasma bolt launcher",
 			"hit.start": 88,
 			"hit.end": 89,
 			"damage.current": 0,
