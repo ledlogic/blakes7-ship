@@ -18,15 +18,25 @@ st.render = {
 	renderShip: function() {
 		st.log("render ship");
 		
-		var shipName = st.ship.spec.name;
-		var shipClass = st.ship.spec["class"];
+		var shipName = st.ship.spec["name"];
+		var shipType = st.ship.spec["type"];
+		var shipAllegiance = st.ship.spec["allegiance"];
+		var shipImg = "img/" + st.ship.spec["img"];
+		
 		var s = [];
 		s.push("<div class=\"st-ship\">");
 		s.push("<label for=\"st-ship-name\">Name:</label>");
 		s.push("<span id=\"st-ship-name\" class=\"st-ship-name\">" + shipName + "</span>");
-		s.push("<label for=\"st-ship-class\">Class:</label>");
-		s.push("<span id=\"st-ship-class\" class=\"st-ship-class\">" + shipClass + "</span>");
+		s.push("<label for=\"st-ship-type\">Type:</label>");
+		s.push("<span id=\"st-ship-name\" class=\"st-ship-name\">" + shipType + "</span>");
+		s.push("<label for=\"st-ship-allegiance\">Allegiance:</label>");
+		s.push("<span id=\"st-ship-allegiance\" class=\"st-ship-allegiance\">" + shipAllegiance + "</span>");
 		s.push("</div>");
+		
+		s.push("<div class=\"st-ship\">");
+		s.push("<img src=\"" + shipImg + "\"/>");
+		s.push("</div>");
+		
 		st.render.$pageft.append($(s.join("")));	
 	},
 	renderSystems: function() {

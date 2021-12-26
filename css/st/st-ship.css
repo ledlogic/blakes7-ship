@@ -109,12 +109,18 @@
 
 .st-ship label {
 	margin-left: 0.5%;
-	width: 9.5%;
+	width: 8.5%;
 }
 .st-ship span {
 	border-left-width: 0px;
-	width: 39.5%;
+	width: 23.8%;
 	margin-right: 0.5%;
+}
+
+.st-ship img {
+	display: block;
+	margin: 0 auto;
+	height: 200px;
 }
 
 /* st-systems */

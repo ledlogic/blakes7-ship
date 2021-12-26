@@ -1,19 +1,24 @@
 {
 	"ships": [
 		{
-			"allegiance": "Blakes-7",
-			"name": "Liberator",
-			"uri": "liberator.json"
-		},
-		{
-			"allegiance": "Blakes-7",
-			"name": "Scorpio",
-			"uri": "scorpio.json"
-		},
-		{
 			"allegiance": "Federation",
 			"name": "Starburst",
-			"uri": "starburst.json"
+			"uri": "federation-starburst.json"
+		},
+		{
+			"allegiance": "Resistance",
+			"name": "Scorpio",
+			"uri": "resistance-scorpio.json"
+		},
+		{
+			"allegiance": "System",
+			"name": "Deep Space Vehicle II",
+			"uri": "system-deep-space-vehicle-ii.json"
+		},
+		{
+			"allegiance": "System",
+			"name": "Pursuit Ship",
+			"uri": "system-pursuit-ship.json"
 		}
 	]
 }

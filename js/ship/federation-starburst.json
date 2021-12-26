@@ -1,6 +1,8 @@
 {
 	"name": "Starburst",
-	"class": "Starburst-class Pursuit Ship",
+	"type": "Starburst-class Pursuit Ship",
+	"allegiance": "Federation",
+	"img": "pursuit-ship.png",
 	"control": 16,
 	"signature": 10,
 	"speed": {
