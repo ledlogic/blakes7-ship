@@ -7,6 +7,11 @@
 		},
 		{
 			"allegiance": "Resistance",
+			"name": "Recusant",
+			"uri": "resistance-recusant.json"
+		},
+		{
+			"allegiance": "Resistance",
 			"name": "Scorpio",
 			"uri": "resistance-scorpio.json"
 		},

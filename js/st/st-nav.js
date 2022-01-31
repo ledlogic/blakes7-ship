@@ -22,7 +22,9 @@ st.nav = {
 	loadShips: function() {
 		st.log("loading ships");
 
-		$.ajax("js/ship/st-ship-list.json")
+		var d = (new Date()).getTime();
+		var url ="js/ship/st-ship-list.json" + "?d=" + d;
+		$.ajax(url)
 		.done(function(data, status, jqxhr) {
 			st.nav.ships = data.ships;
 			setTimeout(st.nav.renderShips, 10);
